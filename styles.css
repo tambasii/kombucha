@@ -132,3 +132,25 @@ body {
 .word {
   margin-top: 80px;
 }
+
+#images {
+  background: #fce4de;
+  align-items: center;
+  padding-left: 25px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.col-md-4 img {
+  width: 90%;
+  height: 90%;
+  border: 25px solid #fff;
+  border-radius: 40px;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+#images h2 {
+  margin-bottom: 100px;
+  margin-top: auto;
+}
