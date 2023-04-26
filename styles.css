@@ -204,8 +204,9 @@ body {
 }
 
 .col-md-6 .map {
-  padding-left: 0;
+  padding-right: 60px;
   width: 100%;
+  border-radius: 10%;
 }
 
 /*Social section */
