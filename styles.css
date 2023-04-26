@@ -207,3 +207,31 @@ body {
   margin-right: 80px;
   width: 75%;
 }
+
+/*Social section */
+
+.socials {
+  background: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.socials h5 {
+  font-size: 32px;
+  font-family: "Gabriela", serif;
+  margin-top: 20px;
+  text-align: center;
+}
+.icons {
+  text-decoration: none;
+  display: flex;
+  font-size: 30px;
+  padding-left: 15px;
+  justify-content: center;
+}
+
+.icons a {
+  text-decoration: none;
+  padding: 15px;
+}
