@@ -7,6 +7,7 @@ body {
   overflow-x: hidden;
 }
 
+/* Top Bar */
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -42,6 +43,7 @@ body {
   color: black;
 }
 
+/*Home section */
 #Home {
   background: #ffd230;
 }
@@ -65,6 +67,8 @@ body {
   height: 75%;
   margin-top: 100px;
 }
+
+/*About section */
 
 #About {
   background: #fce4de;
@@ -93,6 +97,8 @@ body {
   padding-left: 95px;
   width: 100%;
 }
+
+/*Why US section */
 
 #Why {
   background: #ffd230;
@@ -125,6 +131,7 @@ body {
   margin-bottom: 130px;
   font-family: "Montserrat", sans-serif;
 }
+/*Testimonial section */
 
 #testimonials {
   background: #fce4de;
@@ -139,6 +146,8 @@ body {
 .word {
   margin-top: 80px;
 }
+
+/*Images section */
 
 #images {
   background: #fce4de;
@@ -161,3 +170,5 @@ body {
   margin-bottom: 100px;
   margin-top: auto;
 }
+
+/*Swing by section */
