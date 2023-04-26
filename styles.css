@@ -238,6 +238,15 @@ body {
 
 .final {
   text-align: center;
-  height: 40px;
-  backgound: #f4592f;
+  height: 50px;
+  background-color: #f4592f;
+}
+
+.final p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.final p a {
+  color: black;
 }
