@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.hero {
+  background: #fff;
+}
+
+.top-bar {
+  padding: 20px;
+}
+
+.top-bar img {
+  width: 200px;
+  padding-left: 30px;
+}
+
+.nav {
+  float: right;
+}
+
+.nav a {
+  text-decoration: none !important;
+  color: #000 !important;
+  padding: 0 10px;
+  font-size: 32px;
+  font-weight: bold;
+}
