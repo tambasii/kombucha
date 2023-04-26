@@ -154,7 +154,6 @@ body {
   align-items: center;
   padding-left: 25px;
   width: 100%;
-  margin-bottom: 50px;
 }
 
 .col-md-4 img {
@@ -172,3 +171,39 @@ body {
 }
 
 /*Swing by section */
+
+#swing {
+  background: #ffd230;
+}
+
+#swing h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: "Gabriela", serif;
+  margin-bottom: 20px;
+}
+
+.col-md-6 .lead {
+  width: 70%;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: 1000;
+  letter-spacing: 3px;
+  font-family: "Gabriela", serif;
+}
+
+.col-md-6 .fall {
+  width: 70%;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Gabriela", serif;
+}
+
+.col-md-6 .map {
+  margin-right: 80px;
+  width: 75%;
+}
