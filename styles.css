@@ -107,7 +107,7 @@ header h2 {
 }
 
 #Home .text p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Candara";
   font-size: 16px;
 }
 
@@ -157,14 +157,14 @@ header h2 {
 }
 
 .about-text p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Candara";
   font-size: 16px;
   text-align: center;
 }
 
 #Why {
   background-color: #ffd230;
-  height: 100vh;
+  height: 75vh;
   width: 100%;
 }
 
@@ -179,6 +179,36 @@ header h2 {
   font-size: 50px;
   font-weight: 1000;
   padding-top: 50px;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.detail .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.detail .text h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 15px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 2.5px;
+  color: black;
+}
+
+.detail .text p {
+  font-family: "Candara";
+  font-size: 20px;
+  margin-top: 20px;
+  color: black;
 }
 
 /* Media Query */
