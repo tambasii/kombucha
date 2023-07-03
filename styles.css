@@ -84,7 +84,7 @@ h2 {
   width: 40%;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  padding-left: 60px;
 }
 #Home .text h1 {
   font-family: "Montserrat", sans-serif;
@@ -95,7 +95,6 @@ h2 {
 #Home .text p {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  margin: 0 0;
 }
 
 #Home .home-img {
