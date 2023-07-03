@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css" />
     <meta charset="utf-8">
+    <link rel="icon" href="images/Knight King Kombucha.png">
 
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
@@ -15,198 +16,83 @@
     <script src="https://kit.fontawesome.com/59b1b734a7.js"crossorigin="anonymous"></script>
   </head>
     <!--Menu-->
-    <div class="first-section">
+    <header>
       <div class="nav-bar">
-        <div class="nav-left">
-          <h2>Kombucha</h2>
-        </div>
-        <div class="nav-right">
-          <ul style="list-style-type: none">
-            <a href="#Home">Home</a>
-            <a href="#About">About</a>
-            <a href="#Why">Why US</a>
-            <a href="#swing">Contact Us</a>
+          <h2 class="title">Kombucha</h2>
+        <nav class="nav-right">
+          <ul id="menulist">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Why">Why US</a></li>
+            <li><a href="#swing">Contact Us</a></li>
           </ul>
-        </div>
+        </nav>
+        <img src="images/menu.png" class="menu-icon" onclick="togglemenu()" />
       </div>
-    </div>
+    </header>
 
     <!-- Home section--------->
 
-    <section id="Home">
-      <div class="row">
-        <!-- left column--------->
-        <div class="col-md-6">
-          <h1>Knight King Kombucha</h1>
-          <p>
-            It's fun and healthy to drink <br />
-            Kombucha always.
-          </p>
-        </div>
-        <!-- right column--------->
-        <div class="col-md-6">
-          <img src="images/Knight King Kombucha.png" />
-        </div>
+    <div id="Home">
+      <div class="text">
+        <h1>Knight King <br> Kombucha</h1>
+        <p>It is fun and healthy to drink <br>
+Kombucha always</p>
       </div>
-    </section>
-    <!--About section-->
-
-    <section id="About">
-      <div class="row">
-        <!-- left column--------->
-        <div class="col-md-6">
-          <img src="images/About Us.jpeg" class="about" />
-        </div>
-        <!-- right column--------->
-        <div class="col-md-6">
-          <h2>About <span>US</span></h2>
-          <p>
-            Kombucha is fizzy fermented <br />beverage. It contains probiotics
-            that <br />
-            are good for the body and the immune <br />
-            system.
-          </p>
-        </div>
+      <div class="home-img">
+        <img src="images/Knight King Kombucha.png">
       </div>
-    </section>
-    <!--Why US section-->
-
-    <section id="Why" class="why">
-      <h2>Why Drink Kombucha</h2>
-      <div class="row">
-        <!-- left column--------->
-        <div class="col-md-4">
-          <h3>Helps in digestion</h3>
-          <p>
-            The beverage contains tannins which are compounds that can help to
-            ease an upset stomach. So, the next time you’re feeling a little
-            bloated or have indigestion, reach for a cup of kombucha instead of
-            an antacid. You’ll be glad you did!
-          </p>
-        </div>
-        <!-- middle column--------->
-        <div class="col-md-4">
-          <h3>Boosts immune system</h3>
-          <p>
-            This drink is known to boost the immune system and improve overall
-            health. It is made from natural ingredients that have been used for
-            centuries in traditional medicine. The drink is rich in antioxidants
-            and vitamins that help fight off infection and disease.
-          </p>
-        </div>
-
-        <!-- left column--------->
-        <div class="col-md-4">
-          <h3>Burns fat</h3>
-          <p>
-            Kombucha can help improve gut health, boost immunity, and promote
-            weight loss. It has anti-inflammatory properties. If you are looking
-            for a healthy drink that can help you lose weight, kombucha is a
-            good option.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!--Testimonial section-->
-    <section id="testimonials" class="why">
-      <h2>Testimonials</h2>
-      <div class="row">
-        <!-- left column--------->
-        <div class="col-md-6">
-          <p class="word">
-            Kombucha has helped me in terms of digestion and detoxification. I
-            used to have stomach issues, but on the consumption of this
-            beverage, the probiotics have really helped me clean my body.
-          </p>
-
-          <h4><i class="fa-solid fa-bullhorn"></i> Eliud</h4>
-        </div>
-        <!-- right column--------->
-        <div class="col-md-6">
-          <p class="word">
-            I have been drinking kombucha for the last year. I can say it’s a
-            good beverage because it has improved my digestion when I consume
-            it, and also it is good to have fun as compared to other soft
-            beverages.
-          </p>
-          <h4><i class="fa-solid fa-bullhorn"></i> Emma</h4>
-        </div>
-      </div>
-    </section>
-
-    <!--Images section-->
-
-    <section id="images" class="why">
-      <h2>Image Gallery</h2>
-      <div class="row">
-        <!-- left column--------->
-        <div class="col-md-4" class="one">
-          <img src="images/About Us.jpeg" />
-        </div>
-        <!-- midlle column--------->
-        <div class="col-md-4" class="two">
-          <img src="images/Image Gallery 1.jpeg" />
-        </div>
-        <!-- right column--------->
-        <div class="col-md-4" class="three">
-          <img src="images/Image Gallery 2.jpeg" />
-        </div>
-      </div>
-    </section>
-    <!-- Swing by section--------->
-    <section id="swing" class="why">
-      <h2>Swing by soon!</h2>
-      <di class="row">
-        <!-- left column--------->
-        <div class="col-md-6">
-          <p class="lead">Corner House</p>
-          <p class="fall">Kimathi Street</p>
-          <p class="lead">Email Address</p>
-          <p class="fall">kevine.asuga@gmail.com</p>
-          <p class="lead">Phone Number</p>
-          <p class="fall">+254 768 073351</p>
-        </div>
-        <!-- right column--------->
-        <div class="col-md-6">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.815070738997!2d36.8239114!3d-1.2849158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d6371ef447%3A0xf8c792383e78d77!2sCorner%20House%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1682517669473!5m2!1sen!2ske"
-            width="550"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            class="map"
-          ></iframe>
-        </div>
-      </di>
-    </section>
-    <!-- Socials section--------->
-
-    <div class="socials">
-      <h5>CONNECT ON SOCIALS</h5>
     </div>
 
-    <div class="icons">
-      <a
-        href="https://www.facebook.com/profile.php?id=100063790127796"
-        class="fa-brands fa-facebook-f"
-      ></a>
-      <a
-        href="https://www.facebook.com/profile.php?id=100063790127796"
-        class="fa-brands fa-square-twitter"
-      ></a>
-      <a
-        href="https://www.instagram.com/knight_kombucha/?hl=en"
-        class="fa-brands fa-square-instagram"
-      ></a>
-    </div>
-    <section class="final">
-    <p>
-      Kombucha | Powered by
-      <a href="https://bluenerde.com/">Bluenerde Technologies</a>
-    </p>
-  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script>
+      var menulist = document.getElementById("menulist");
+
+      menulist.style.maxHeight = "0px";
+
+      function togglemenu() {
+        if (menulist.style.maxHeight == "0px") {
+          menulist.style.maxHeight = "130px";
+        } else {
+          menulist.style.maxHeight = "0px";
+        }
+      }
+    </script>
   </body>
 </html>
