@@ -355,7 +355,7 @@ footer h4 {
 
 .socials ul li {
   list-style: none;
-  margin: 10px 30px;
+  margin: 5px 30px;
   font-size: 16px;
 }
 
@@ -369,7 +369,7 @@ footer h4 {
 }
 
 /* Media Query */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .nav-bar {
     height: 70px;
   }
