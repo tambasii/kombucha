@@ -336,14 +336,14 @@ header h2 {
 footer {
   background-color: #b0735e;
   width: 100%;
-  height: 100px;
+  height: 130px;
 }
 
 footer h4 {
   text-align: center;
-  font-size: 25px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
-  font-style: italic;
+  color: black;
 }
 
 .socials ul {
