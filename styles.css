@@ -17,8 +17,6 @@ body {
 .nav-bar {
   display: flex;
   align-items: center;
-  position: fixed;
-  z-index: 100;
   width: 100vw;
   padding: 10px;
   height: 70px;
@@ -96,18 +94,18 @@ header h2 {
   display: flex;
   width: 40%;
   flex-direction: column;
-  justify-content: flex-start;
-  padding-left: 60px;
 }
 #Home .text h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 60px;
   font-weight: 450;
+  text-align: center;
 }
 
 #Home .text p {
   font-family: "Candara";
   font-size: 16px;
+  text-align: center;
 }
 
 #Home .home-img {
@@ -148,7 +146,7 @@ header h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   font-weight: 1000;
-  text-align: left;
+  text-align: center;
 }
 
 .about-text span {
@@ -241,6 +239,7 @@ header h2 {
   font-size: 16px;
   margin-top: 20px;
   color: black;
+  text-align: center;
 }
 
 .testimonial-2 {
@@ -256,6 +255,7 @@ header h2 {
   font-size: 16px;
   margin-top: 20px;
   color: black;
+  text-align: center;
 }
 
 .gallery {
@@ -368,10 +368,10 @@ footer h4 {
 }
 
 /* Media Query */
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 750px) {
   .nav-bar {
     height: 70px;
-    width: 90vw;
+    width: 95vw;
   }
 
   nav ul {
@@ -400,12 +400,12 @@ footer h4 {
 
   #Home .text h1 {
     font-size: 4em;
-    text-align: left;
+    text-align: center;
   }
 
   #Home .text p {
     width: 70vw;
-    text-align: left;
+    text-align: center;
   }
   #Home .home-img {
     display: none;
@@ -414,8 +414,14 @@ footer h4 {
   #About {
     width: 100vw;
     height: 50vh;
-    display: flex;
-    flex-direction: column;
+  }
+
+  .about-text h2 {
+    text-align: center;
+  }
+
+  .about-text p {
+    text-align: center;
   }
 
   .about-img {
@@ -424,11 +430,11 @@ footer h4 {
 
   #Why {
     width: 100vw;
-    height: 100vh;
+    min-height: 65vh;
   }
 
   #testimonials {
-    height: 65vh;
+    min-height: 55vh;
     width: 100vw;
   }
 
@@ -443,14 +449,10 @@ footer h4 {
     height: 50vh;
     width: 100vw;
   }
-  .images {
-    display: flex;
-    overflow-x: auto;
-  }
+
   .images img {
-    margin: 0 2.5px;
-    width: 30%;
-    height: 30%;
+    width: 190px;
+    height: 190px;
   }
   #swing {
     width: 100%;
