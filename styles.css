@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -13,7 +17,7 @@ body {
   align-items: center;
   position: fixed;
   z-index: 100;
-  width: 100%;
+  width: 100vw;
   padding: 10px;
   height: 70px;
 }
@@ -369,14 +373,14 @@ footer h4 {
 }
 
 /* Media Query */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780px) {
   .nav-bar {
     height: 70px;
+    width: 90vw;
   }
 
   nav ul {
     width: 100%;
-    background: linear-gradient(#ffd230, #fce4de);
     position: absolute;
     top: 75px;
     right: 0;
@@ -390,24 +394,28 @@ footer h4 {
     overflow: hidden;
     transition: 0.5s;
   }
-
+  #Home {
+    width: 100vw;
+    height: 60vh;
+  }
   #Home .text {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    width: 70vw;
+  }
+
+  #Home .text h1 {
+    font-size: 4em;
+    text-align: left;
+  }
+
+  #Home .text p {
+    width: 70vw;
+    text-align: left;
   }
   #Home .home-img {
     display: none;
   }
 
-  .col-md-6 h1 {
-    margin-top: 50px;
-    font-size: 40px;
-    font-weight: 200;
-    letter-spacing: 1.5px;
-    font-family: "Montserrat", sans-serif;
+  #About {
   }
-}
-
-@media only screen and (max-width: 1350px) {
 }
