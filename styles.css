@@ -163,7 +163,7 @@ header h2 {
 
 #Why {
   background-color: #ffd230;
-  height: 55vh;
+  min-height: 45vh;
   width: 100vw;
 }
 
@@ -209,7 +209,7 @@ header h2 {
 
 #testimonials {
   background-color: #fce4de;
-  height: 55vh;
+  min-height: 45vh;
   width: 100vw;
 }
 
