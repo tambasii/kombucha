@@ -9,6 +9,8 @@ html {
 
 body {
   overflow-x: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 /* Top Bar */
@@ -25,7 +27,7 @@ body {
 /* nav-left*/
 .title {
   display: flex;
-  font-size: 20px;
+  font-size: 2.5em;
   width: 50%;
   justify-content: flex-start;
   align-items: center;
@@ -40,13 +42,6 @@ header h2 {
   align-items: center;
   padding: 0 20px;
   font-family: "Gabriela", serif;
-}
-
-.nav-left h2 {
-  font-size: 40px;
-  font-family: "Gabriela", serif;
-  text-align: center;
-  color: black;
 }
 
 /*nav-right*/
@@ -128,7 +123,7 @@ header h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
@@ -171,7 +166,7 @@ header h2 {
 #Why {
   background-color: #ffd230;
   height: 55vh;
-  width: 100%;
+  width: 100vw;
 }
 
 .why-header h2 {
@@ -200,8 +195,8 @@ header h2 {
   margin-top: 15px;
   font-size: 24px;
   letter-spacing: 1px;
-  line-height: 2.5px;
   color: black;
+  text-align: center;
 }
 
 .detail .text p {
@@ -209,6 +204,7 @@ header h2 {
   font-size: 16px;
   margin-top: 20px;
   color: black;
+  text-align: center;
 }
 
 /* Testimonial */
@@ -216,23 +212,20 @@ header h2 {
 #testimonials {
   background-color: #fce4de;
   height: 55vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+  width: 100vw;
 }
 
 .testimonials-header h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   font-weight: 1000;
-  text-align: center;
   padding: 20px 0;
+  text-align: center;
 }
 
 .testimonies {
   display: flex;
-  width: 100%;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .testimonial-1 {
@@ -240,6 +233,7 @@ header h2 {
   flex-direction: column;
   padding-left: 16px;
   flex-wrap: wrap;
+  width: 30%;
 }
 
 .testimonial-1 p {
@@ -254,6 +248,7 @@ header h2 {
   flex-direction: column;
   padding-left: 16px;
   flex-wrap: wrap;
+  width: 30%;
 }
 
 .testimonial-2 p {
@@ -265,8 +260,8 @@ header h2 {
 
 .gallery {
   background-color: #ffd230;
-  width: 100%;
-  height: 75vh;
+  min-width: 100%;
+  height: 80vh;
 }
 
 .image-gallery h3 {
@@ -288,7 +283,7 @@ header h2 {
   width: 350px;
   height: 350px;
   padding: 10px;
-  margin: 0 20px;
+  margin: 0 10px;
   border-radius: 24px;
 }
 #swing {
@@ -364,7 +359,7 @@ footer h4 {
 }
 
 .socials ul li i {
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .socials ul li i::before,
@@ -417,5 +412,93 @@ footer h4 {
   }
 
   #About {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-img {
+    display: none;
+  }
+
+  #Why {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #testimonials {
+    height: 65vh;
+    width: 100vw;
+  }
+
+  .testimonial-2 {
+    width: 50%;
+  }
+
+  .testimonial-1 {
+    width: 50%;
+  }
+  .gallery {
+    height: 50vh;
+    width: 100vw;
+  }
+  .images {
+    display: flex;
+    overflow-x: auto;
+  }
+  .images img {
+    margin: 0 2.5px;
+    width: 30%;
+    height: 30%;
+  }
+  #swing {
+    width: 100%;
+    height: 80vh;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
+    width: 100vw;
+  }
+
+  .contact ul {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .contact ul li {
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .contact ul li span {
+    font-style: italic;
+    font-weight: 60;
+  }
+
+  .contact .map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .map iframe {
+    border-radius: 24px;
+    width: 80%;
+    height: 220px;
+  }
+
+  footer {
+    width: 100%;
+    height: 110px;
+  }
+
+  footer h4 {
+    font-size: 14px;
+    padding-top: 10px;
   }
 }
