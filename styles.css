@@ -9,3 +9,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --main-color: #ffd230;
+  --primary-color: #fce4de;
+  --main-font: "Montserrat", sans-serif;
+  --primary-font: "Didact Gothic", sans-serif;
+}
