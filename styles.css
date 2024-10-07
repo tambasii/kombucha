@@ -123,3 +123,55 @@ span {
 }
 
 /* About section ends */
+
+/* Why section starts */
+.why-section {
+  height: 100vh;
+  background: var(--main-color);
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.why-section h2 {
+  font-family: var(--primary-font);
+  font-size: 5rem;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mother-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.details {
+  background-color: var(--main-color);
+  border-radius: 8px;
+  padding: 15px;
+  width: 100%;
+  max-width: 550px;
+  box-shadow: 0px 4px 8px var(--main-color);
+}
+.topic {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.text {
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .mother-details {
+    flex-direction: column;
+    align-items: center;
+  }
+}
