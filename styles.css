@@ -16,3 +16,48 @@
   --main-font: "Montserrat", sans-serif;
   --primary-font: "Didact Gothic", sans-serif;
 }
+/* Nav starts */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  padding: 20px;
+}
+
+.logo {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+}
+
+.burger {
+  background: #fff;
+  padding: 10px;
+}
+
+.burger ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.burger li {
+  position: relative;
+}
+
+.burger a {
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: var(--primary-font);
+  padding: 10px 15px;
+  display: block;
+}
+
+.burger a:hover {
+  background-color: var(--main-color);
+}
+
+/* Nav ends */
