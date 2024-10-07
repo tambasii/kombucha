@@ -27,6 +27,7 @@ nav {
 .logo {
   font-family: var(--primary-font);
   font-size: 2rem;
+  font-weight: lighter;
 }
 
 .burger {
@@ -61,3 +62,64 @@ nav {
 }
 
 /* Nav ends */
+
+/* Home section starts */
+
+.home-section {
+  background: var(--main-color);
+  display: flex;
+  flex-direction: row;
+  padding: 10px 25px;
+  height: 80vh;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  justify-content: center;
+}
+
+.text-section h2 {
+  font-family: var(--primary-font);
+  font-size: 5rem;
+  font-weight: lighter;
+  margin-left: 120px;
+}
+
+.text-section p {
+  font-family: var(--main-font);
+  font-weight: 300;
+  margin-left: 120px;
+  font-size: 2rem;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+
+/* About section starts */
+
+.about-section {
+  background: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  padding: 10px 25px;
+  height: 80vh;
+}
+
+.about-section img {
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+span {
+  color: var(--main-color);
+}
+
+/* About section ends */
